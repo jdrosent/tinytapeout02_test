@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    0        # If using wokwi, set this to your project's ID
+  wokwi_id:    347176470100050515        # If using wokwi, set this to your project's ID
   source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
     - cells.v
     - rising_edge_detect.v
@@ -15,7 +15,7 @@ project:
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:       "James R."      # Your name
-  title:        "Rising Edge Detect"      # Project title
+  title:        "Test UART"      # Project title
   description:  "Detects a rising edge on SW2"      # Short description of what your project does
   how_it_works: "Using a DFF, compares the current and past states."      # Longer description of how the project works
   how_to_test:  "Enable the clock..."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
